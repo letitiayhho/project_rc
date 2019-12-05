@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -euo pipefail
+
+cd "$(dirname "$(readlink $0)")"
+pwd
+wikitext2_url=https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-v1.zip
+
+curl $wikitext2_url > /tmp/wikitext-2.zip
+
+unzip /tmp/wikitext-2.zip # unzips to ./wikitext-2/wiki.*.tokens
+for name in train test valid; do
+    mv wikitext-2/wiki.$name.tokens data/wikitext-2/$name.txt
+done
+
+rmdir wikitext-2
+
