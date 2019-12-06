@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-cd "$(dirname "$(realpath $0)")/.."
+cd "$(dirname "$(python -c "import os; print(os.path.realpath('$0'))")")/.."
 
 wikitext2_url=https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-v1.zip
 
