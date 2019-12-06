@@ -10,7 +10,7 @@ curl $wikitext2_url > /tmp/wikitext-2.zip
 
 unzip /tmp/wikitext-2.zip # unzips to ./wikitext-2/wiki.*.tokens
 for name in train test valid; do
-    mv wikitext-2/wiki.$name.tokens data/wikitext-2/$name.txt
+    mv wikitext-2/wiki.$name.tokens /Users/letitiaho/Desktop/project_rc/data/wikitext-2/$name.txt
 done
 
 rmdir wikitext-2
