@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-cd "$(dirname "$(readlink $0)")"
-pwd
+cd "$(dirname "$(realpath $0)")/.."
+
 wikitext2_url=https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-v1.zip
 
 curl $wikitext2_url > /tmp/wikitext-2.zip
