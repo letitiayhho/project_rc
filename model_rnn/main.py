@@ -35,7 +35,7 @@ sys.stderr.write('Libraries loaded\n')
 parser = argparse.ArgumentParser(description='PyTorch RNN/LSTM Language Model')
 
 # Model parameters
-parser.add_argument('--model', type=str, default='LSTM',
+parser.add_argument('--model', type=str, default='RNN_RELU',
                     choices=['RNN_TANH', 'RNN_RELU', 'LSTM', 'GRU'],
                     help='type of recurrent net')
 parser.add_argument('--emsize', type=int, default=200,

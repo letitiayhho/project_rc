@@ -91,7 +91,7 @@ class RNNModel(nn.Module):
     def init_hidden(self, bsz):
         """ Initialize a fresh hidden state """
         weight = next(self.parameters()).data
-        if self.rnn_type == 'LSTM':
+        if self.rnn_type == 'RNN_RELU':
             return (torch.tensor(weight.new(self.nlayers, bsz, self.nhid).zero_()),
                     torch.tensor(weight.new(self.nlayers, bsz, self.nhid).zero_()))
         else:
