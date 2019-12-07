@@ -1,0 +1,12 @@
+# Train LSTM
+    # should be a trained version 'wiki_2_model.pt' on my AWS already
+
+# Train RNN
+time python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --tied --data_dir './data/wikitext-2/' --trainfname 'train.txt' --validfname 'valid.txt'
+
+# Test LSTM on RC
+    # okay should find a way to call this function over all the RC files
+time python ./model_lstm/main.py --model_file './model_lstm/lstm.pt --vocab_file ‘./data/wikitext-2/vocab.txt' --data_dir './data/test_rc/' --testfname 'REPLACE ME' --test --words > REPLACE ME.OUTPUT
+
+# Test RNN on RC
+time python ./model_rnn/main.py --model_file './model_rnn/rnn.pt --vocab_file ‘./data/wikitext-2/vocab.txt' --data_dir './data/test_rc/' --testfname 'A_1_rc.txt' --test --words > REPLACE ME.OUTPUT
