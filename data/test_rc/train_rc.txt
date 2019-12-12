@@ -1,4 +1,12 @@
-The hiker that found the ranger asked for assistance with a rescue operation. The hiker that the ranger found asked for assistance with a rescue operation. The journalist that contacted the editor published an exclusive news story. The journalist that the editor contacted published an exclusive news story. The hunter that encountered the backpacker traveled many miles to a cabin. The hunter that the backpacker encountered traveled many miles to a cabin. The librarian that helped the professor ordered new books about science. The librarian that the professor helped ordered new books about science. The classmate that startled the boy tried to stay quiet during the test.
+The hiker that found the ranger asked for assistance with a rescue operation.
+The hiker that the ranger found asked for assistance with a rescue operation.
+The journalist that contacted the editor published an exclusive news story.
+The journalist that the editor contacted published an exclusive news story.
+The hunter that encountered the backpacker traveled many miles to a cabin.
+The hunter that the backpacker encountered traveled many miles to a cabin.
+The librarian that helped the professor ordered new books about science.
+The librarian that the professor helped ordered new books about science.
+The classmate that startled the boy tried to stay quiet during the test.
 The classmate that the boy startled tried to stay quiet during the test.
 The mechanic that talked_with the motorist fixed the car's engine and transmission.
 The mechanic that the motorist talked_with fixed the car's engine and transmission.
@@ -8,14 +16,19 @@ The policemen that threatened the suspect drove him to the county jail.
 The policemen that the suspect threatened drove him to the county jail.
 The student that surprised the teacher made noise in the classroom.
 The student that the teacher surprised made noise in the classroom.
-The man that mentored the student instructed him to keep in touch after their last meeting. The man that the student mentored instructed him to keep in touch after their last meeting.
-The minister that counseled the colleague prepared his own sermon for Sunday morning. The minister that the colleague counseled prepared his own sermon for Sunday morning. The kid that helped the mother shoveled snow from the driveway.
+The man that mentored the student instructed him to keep in touch after their last meeting.
+The man that the student mentored instructed him to keep in touch after their last meeting.
+The minister that counseled the colleague prepared his own sermon for Sunday morning.
+The minister that the colleague counseled prepared his own sermon for Sunday morning.
+The kid that helped the mother shoveled snow from the driveway.
 The kid that the mother helped shoveled snow from the driveway.
 The conductor that greeted the patrons demonstrated great skill and expertise during the performance.
 The conductor that the patrons greeted demonstrated great skill and expertise during the performance.
 The actor that mocked the star struggled_with his own role in the film.
 The actor that the star mocked struggled_with his own role in the film.
-The waiter that commended the bartender helped several thousand customers during his long career. The waiter that the bartender commended helped several thousand customers during his long career. The boater that rescued the swimmer served as a lifeguard at the town pool.
+The waiter that commended the bartender helped several thousand customers during his long career.
+The waiter that the bartender commended helped several thousand customers during his long career.
+The boater that rescued the swimmer served as a lifeguard at the town pool.
 The boater that the swimmer rescued served as a lifeguard at the town pool.
 The researcher that quoted the author studied British literature from the Victorian era.
 The researcher that the author quoted studied British literature from the Victorian era.
@@ -47,7 +60,9 @@ The agent that contacted the informant desired additional information about the 
 The agent that the informant contacted desired additional information about the robbery.
 The fisherman that located the sailor capsized his fishing boat in stormy seas.
 The fisherman that the sailor located capsized his fishing boat in stormy seas.
-The technician that attacked the supervisor apologized for his inappropriate behavior. The technician that the supervisor attacked apologized for his inappropriate behavior.The director that liked the actress imagined a wonderfully successful film.
+The technician that attacked the supervisor apologized for his inappropriate behavior.
+The technician that the supervisor attacked apologized for his inappropriate behavior.
+The director that liked the actress imagined a wonderfully successful film.
 The director that the actress liked imagined a wonderfully successful film.
 The general that informed the lieutenant worried about secret enemy plans.
 The general that the lieutenant informed worried about secret enemy plans.
@@ -55,7 +70,9 @@ The repairman that knew the supplier anticipated a special discount on parts.
 The repairman that the supplier knew anticipated a special discount on parts.
 The biographer that recalled the novelist included several quotes in her book.
 The biographer that the novelist recalled included several quotes in her book.
-The parent that honored the teacher remembered her son's amazing experience in fourth-grade. The parent that the teacher honored remembered her son's amazing experience in fourth-grade. The spectators that witnessed the athlete filled an entire football stadium.
+The parent that honored the teacher remembered her son's amazing experience in fourth-grade.
+The parent that the teacher honored remembered her son's amazing experience in fourth-grade.
+The spectators that witnessed the athlete filled an entire football stadium.
 The spectators that the athlete witnessed filled an entire football stadium.
 The benefactor that met_with the scientist praised his discoveries in medical research.
 The benefactor that the scientist met_with praised his discoveries in medical research.
@@ -65,7 +82,9 @@ The mayor that hosted the governor managed a prosperous major city.
 The mayor that the governor hosted managed a prosperous major city.
 The electrician that hit the foreman avoided any reprecussions for his actions.
 The electrician that the foreman hit avoided any reprecussions for his actions.
-The artist that adored the sculptor selected several pieces to purchase after a recent exhibition. The artist that the sculptor adored selected several pieces to purchase after a recent exhibition. The landscaper that recognized the homeowner waved_to her at the grocery store.
+The artist that adored the sculptor selected several pieces to purchase after a recent exhibition.
+The artist that the sculptor adored selected several pieces to purchase after a recent exhibition.
+The landscaper that recognized the homeowner waved_to her at the grocery store.
 The landscaper that the homeowner recognized waved_to her at the grocery store.
 The senator that supported the President presented him with a defense bill to sign.
 The senator that the President supported presented him with a defense bill to sign.
@@ -85,7 +104,9 @@ The warden that controlled the prisoner sparked an enormous and dangerous brawl.
 The warden that the prisoner controlled sparked an enormous and dangerous brawl.
 The trustee that backed the executive attended an important business meeting.
 The trustee that the executive backed attended an important business meeting.
-The petsitter that befriended the veterinarian promoted several major discounts for pet owners. The petsitter that the veterinarian befriended promoted several major discounts for pet owners. The CEO that asked the analyst searched for information about market activity.
+The petsitter that befriended the veterinarian promoted several major discounts for pet owners.
+The petsitter that the veterinarian befriended promoted several major discounts for pet owners.
+The CEO that asked the analyst searched for information about market activity.
 The CEO that the analyst asked searched for information about market activity.
 The assistant that requested the messenger delivered five boxes of files.
 The assistant that the messenger requested delivered five boxes of files.
@@ -99,10 +120,15 @@ The inventor that reached the investor faced challenges implementing their ideas
 The inventor that the investor reached faced challenges implementing their ideas.
 The illustrator that assisted the poet offered quality work for a reasonable price.
 The illustrator that the poet assisted offered quality work for a reasonable price.
-The man that assaulted the commuter encountered surprisingly few consequences for his actions. The man that the commuter assaulted encountered surprisingly few consequences for his actions. The mailman that chased the robber caught him on a sidewalk.
+The man that assaulted the commuter encountered surprisingly few consequences for his actions.
+The man that the commuter assaulted encountered surprisingly few consequences for his actions.
+The mailman that chased the robber caught him on a sidewalk.
 The mailman that the robber chased caught him on a sidewalk.
 The protester that confronted the Congressman escaped arrest by local police.
-The protester that the Congressman confronted escaped arrest by local police.The astronaut that invited the biologist investigated bacteria on other planets. The astronaut that the biologist invited investigated bacteria on other planets. The operator that warned the inspector prevented a dangerous equipment failure. The operator that the inspector warned prevented a dangerous equipment failure. The citizens that tracked the spy alerted several important government officials. The citizens that the spy tracked alerted several important government officials. The troops that captured the terrorist finished their top secret mission. The troops that the terrorist captured finished their top secret mission. The advertiser that convinced the producer outlined a new and innovative idea. The advertiser that the producer convinced outlined a new and innovative idea. The curator that despised the designer banned all future contact and collaboration. The curator that the designer despised banned all future contact and collaboration. The guard that frustrated the inmate attempted to remove him from the jail. The guard that the inmate frustrated attempted to remove him from the jail. The lumberjack that aggravated the forester forced himself to engage in friendly conversation. The lumberjack that the forester aggravated forced himself to engage in friendly conversation. The chemist that inspired the biologist wrote a new biochemistry textbook last year. The chemist that the biologist inspired wrote a new biochemistry textbook last year. The banker that challenged the broker misunderstood the latest market trends. The banker that the broker challenged misunderstood the latest market trends. The scholar that researched the philosopher interpreted his work in a new way. The scholar that the philosopher researched interpreted his work in a new way. The golfer that beat the pro won the celebrated state championship. The golfer that the pro beat won the celebrated state championship. 
+The protester that the Congressman confronted escaped arrest by local police.
+The astronaut that invited the biologist investigated bacteria on other planets. The astronaut that the biologist invited investigated bacteria on other planets. The operator that warned the inspector prevented a dangerous equipment failure. The operator that the inspector warned prevented a dangerous equipment failure. The citizens that tracked the spy alerted several important government officials. The citizens that the spy tracked alerted several important government officials. The troops that captured the terrorist finished their top secret mission. The troops that the terrorist captured finished their top secret mission. The advertiser that convinced the producer outlined a new and innovative idea. The advertiser that the producer convinced outlined a new and innovative idea. The curator that despised the designer banned all future contact and collaboration. The curator that the designer despised banned all future contact and collaboration. The guard that frustrated the inmate attempted to remove him from the jail. The guard that the inmate frustrated attempted to remove him from the jail. The lumberjack that aggravated the forester forced himself to engage in friendly conversation.
+The lumberjack that the forester aggravated forced himself to engage in friendly conversation.
+The chemist that inspired the biologist wrote a new biochemistry textbook last year. The chemist that the biologist inspired wrote a new biochemistry textbook last year. The banker that challenged the broker misunderstood the latest market trends. The banker that the broker challenged misunderstood the latest market trends. The scholar that researched the philosopher interpreted his work in a new way. The scholar that the philosopher researched interpreted his work in a new way. The golfer that beat the pro won the celebrated state championship. The golfer that the pro beat won the celebrated state championship.
 The performer that respected the writer opposed the controversial novel.
 The performer that the writer respected opposed the controversial novel.
 The speaker that coached the councilman delivered an inspiring speech at the rally.
@@ -117,7 +143,9 @@ The servant that complimented the king strolled across the castle grounds.
 The servant that the king complimented strolled across the castle grounds.
 The skier that annoyed the snowboarder departed the ski resort at the end of the day.
 The skier that the snowboarder annoyed departed the ski resort at the end of the day.
-The exterminator that aided the groundskeeper killed several hundred bees under a park bench. The exterminator that the groundskeeper aided killed several hundred bees under a park bench. The outlaw that wrestled the sheriff evaded capture for five years.
+The exterminator that aided the groundskeeper killed several hundred bees under a park bench.
+The exterminator that the groundskeeper aided killed several hundred bees under a park bench.
+The outlaw that wrestled the sheriff evaded capture for five years.
 The outlaw that the sheriff wrestled evaded capture for five years.
 The beggar that harassed the pedestrian needed support from social services.
 The beggar that the pedestrian harassed needed support from social services.
@@ -131,13 +159,21 @@ The gamer that thanked the animator began his speech at the national video game 
 The gamer that the animator thanked began his speech at the national video game conference.
 The model that idolized the photographer posed for over eight thousand pictures.
 The model that the photographer idolized posed for over eight thousand pictures.
-The victim that accompanied the volunteer indicated how his home was damaged by the hurricane. The victim that the volunteer accompanied indicated how his home was damaged by the hurricane. The ballerina that critiqued the choreographer argued for her own interpretation of the new piece. The ballerina that the choreographer critiqued argued for her own interpretation of the new piece. The groomer that irritated the dog used extra strength canine shampoo.
+The victim that accompanied the volunteer indicated how his home was damaged by the hurricane.
+The victim that the volunteer accompanied indicated how his home was damaged by the hurricane.
+The ballerina that critiqued the choreographer argued for her own interpretation of the new piece.
+The ballerina that the choreographer critiqued argued for her own interpretation of the new piece.
+The groomer that irritated the dog used extra strength canine shampoo.
 The groomer that the dog irritated used extra strength canine shampoo.
 The gymnast that defeated the rival acquired a very lucrative endorsement deal.
 The gymnast that the rival defeated acquired a very lucrative endorsement deal.
 The activist that assailed the bystander asserted the validity of his own opinion.
-The activist that the bystander assailed asserted the validity of his own opinion.The trainee that promoted the instructor awaited her exercise class each week. The trainee that the instructor promoted awaited her exercise class each week. The realtor that antagonized the buyer dreaded each meeting they scheduled. The realtor that the buyer antagonized dreaded each meeting they scheduled. The barber that favored the grocer chatted with everyone in their small community. The barber that the grocer favored chatted with everyone in their small community. 
-The monitor that beckoned the toddler hoped to point out something interesting. The monitor that the toddler beckoned hoped to point out something interesting. The guardsman that trusted the officer assumed that he would be kept safe.
+The activist that the bystander assailed asserted the validity of his own opinion.
+The trainee that promoted the instructor awaited her exercise class each week. The trainee that the instructor promoted awaited her exercise class each week. The realtor that antagonized the buyer dreaded each meeting they scheduled. The realtor that the buyer antagonized dreaded each meeting they scheduled. The barber that favored the grocer chatted with everyone in their small community.
+The barber that the grocer favored chatted with everyone in their small community.
+The monitor that beckoned the toddler hoped to point out something interesting.
+The monitor that the toddler beckoned hoped to point out something interesting.
+The guardsman that trusted the officer assumed that he would be kept safe.
 The guardsman that the officer trusted assumed that he would be kept safe.
 The lady that paid the man negotiated a much lower price first.
 The lady that the man paid negotiated a much lower price first.
@@ -171,7 +207,8 @@ The dispatcher that reached the cab driver encouraged travel on the expressway.
 The dispatcher that the cab driver reached encouraged travel on the expressway.
 The dentist that criticized the biochemist learned something new about human teeth during the lecture.
 The dentist that the biochemist criticized learned something new about human teeth during the lecture.
-The dishwasher that dated the waitress gained an unwanted reputation for himself at the restaurant. The dishwasher that the waitress dated gained an unwanted reputation for himself at the restaurant.
+The dishwasher that dated the waitress gained an unwanted reputation for himself at the restaurant.
+The dishwasher that the waitress dated gained an unwanted reputation for himself at the restaurant.
 The distributor that deceived the salesman lost business in the community.
 The distributor that the salesman deceived lost business in the community.
 The nurse that cautioned the dietitian remembered the patient's many food allergies.
@@ -182,10 +219,13 @@ The epidemiologist that awaited the official explained crucial public health res
 The epidemiologist that the official awaited explained crucial public health research.
 The environmentalist that protested the miner highlighted an important social issue.
 The environmentalist that the miner protested highlighted an important social issue.
-The principal that appeased the superintendent dodged a long and bitter conflict over new teachers. The principal that the superintendent appeased dodged a long and bitter conflict over new teachers. The financier that accused the lender failed to demonstrate any wrongdoing.
+The principal that appeased the superintendent dodged a long and bitter conflict over new teachers.
+The principal that the superintendent appeased dodged a long and bitter conflict over new teachers.
+The financier that accused the lender failed to demonstrate any wrongdoing.
 The financier that the lender accused failed to demonstrate any wrongdoing.
 The steward that saved the passenger was viewed as a hero by everyone on the plane.
 The steward that the passenger saved was viewed as a hero by everyone on the plane.
 The florist that advertised the hairdresser experienced an increase in business.
 The florist that the hairdresser advertised experienced an increase in business.
-The seamstress that recommended the dry cleaner worked in the clothing industry with him for years. The seamstress that the dry cleaner recommended worked in the clothing industry with him for years.
+The seamstress that recommended the dry cleaner worked in the clothing industry with him for years.
+The seamstress that the dry cleaner recommended worked in the clothing industry with him for years.

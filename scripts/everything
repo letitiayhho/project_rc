@@ -1,12 +1,49 @@
-# Train LSTM
-    # should be a trained version 'wiki_2_model.pt' on my AWS already
+# Running everything on a new server
+git clone https://github.com/letitiayhho/project_rc.git
+cd ~/project_rc
 
-# Train RNN
+
+# Installing required packages within virtual env project_rc
+conda create project_rc
+conda install -f -y -q --name project_rc -c conda-forge --file requirements.txt
+conda activate project_rc
+
+
+# Pre-training on Wikitext-2
+    # LSTM
+    # locate trained version 'wiki_2_model.pt' on my AWS and
+mv ./<PATH>/wiki_2_model.pt ./model_lstm/lstm.pt # CHANGE THIS
+
+    # RNN
 time python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --tied --data_dir './data/wikitext-2/' --trainfname 'train.txt' --validfname 'valid.txt'
 
-# Test LSTM on RC
-    # okay should find a way to call this function over all the RC files
-time python ./model_lstm/main.py --model_file './model_lstm/lstm.pt --vocab_file ‘./data/wikitext-2/vocab.txt' --data_dir './data/test_rc/' --testfname 'REPLACE ME' --test --words > REPLACE ME.OUTPUT
 
-# Test RNN on RC
-time python ./model_rnn/main.py --model_file './model_rnn/rnn.pt --vocab_file ‘./data/wikitext-2/vocab.txt' --data_dir './data/test_rc/' --testfname 'A_1_rc.txt' --test --words > REPLACE ME.OUTPUT
+# Train
+    # LSTM on RCs
+time python main.py --model_file ‘lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model ’lstm_train_rc.pt’ > lstm_train_rc # train on rc
+    # LSTM on SCs
+time python main.py --model_file ‘lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model ’lstm_train_sc.pt’ > lstm_train_sc # train on sc
+    # RNN on RCs
+time python main.py --model_file ‘rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model ’rnn_train_rc.pt’ > rnn_train_rc # train on rc
+    # RNN on SCs
+time python main.py --model_file ‘rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model ’rnn_train_sc.pt’ > rnn_train_sc # train on sc
+
+
+# Test
+    # LSTM trained on RCs
+time python main.py --model_file ‘lstm_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > lstm_train_rc_test
+    # LSTM trained on SCs
+time python main.py --model_file ‘lstm_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > lstm_train_sc_test
+    # RNN trained on RCs
+time python main.py --model_file ‘rnn_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > rnn_train_rc_test
+    # RNN trained on SCs
+time python main.py --model_file ‘rnn_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > rnn_train_sc_test
+
+
+# Push to GitHub
+git add *
+git commit -m 'Run on AWS'
+git push -u origin master
+
+
+# Transfer files to local drive with scp?
