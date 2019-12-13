@@ -11,33 +11,37 @@ conda activate project_rc
 
 # Pre-training on Wikitext-2
     # LSTM
-    # locate trained version 'wiki_2_model.pt' on my AWS and
-mv ./<PATH>/wiki_2_model.pt ./model_lstm/lstm.pt # CHANGE THIS
+python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --tied --cuda --data_dir './data/wikitext-2/' --trainfname 'train.txt' --validfname 'valid.txt'
 
     # RNN
-time python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --tied --data_dir './data/wikitext-2/' --trainfname 'train.txt' --validfname 'valid.txt'
+python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --tied --cuda --data_dir './data/wikitext-2/' --trainfname 'train.txt' --validfname 'valid.txt'
+
+
+# Train interactively
+    # LSTM
+python ./model_lstm/main.py --model_file ./model_lstm/lstm.pt --vocab_file ./data/wikitext-2/vocab.txt --interact
 
 
 # Train
     # LSTM on RCs
-time python main.py --model_file ‘lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model ’lstm_train_rc.pt’ > lstm_train_rc # train on rc
+python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_rc.txt' --test --words --adapt --adapted_model 'lstm_train_rc.pt' > lstm_train_rc # train on rc
     # LSTM on SCs
-time python main.py --model_file ‘lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model ’lstm_train_sc.pt’ > lstm_train_sc # train on sc
+python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_sc.txt' --test --words --adapt --adapted_model 'lstm_train_sc.pt' > lstm_train_sc # train on sc
     # RNN on RCs
-time python main.py --model_file ‘rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model ’rnn_train_rc.pt’ > rnn_train_rc # train on rc
+python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_rc.txt' --test --words --adapt --adapted_model 'rnn_train_rc.pt' > rnn_train_rc # train on rc
     # RNN on SCs
-time python main.py --model_file ‘rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model ’rnn_train_sc.pt’ > rnn_train_sc # train on sc
+python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_sc.txt' --test --words --adapt --adapted_model 'rnn_train_sc.pt' > rnn_train_sc # train on sc
 
 
 # Test
     # LSTM trained on RCs
-time python main.py --model_file ‘lstm_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > lstm_train_rc_test
+python ./model_lstm/main.py --model_file 'lstm_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > lstm_train_rc_test
     # LSTM trained on SCs
-time python main.py --model_file ‘lstm_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > lstm_train_sc_test
+python ./model_lstm/main.py --model_file 'lstm_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > lstm_train_sc_test
     # RNN trained on RCs
-time python main.py --model_file ‘rnn_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > rnn_train_rc_test
+python ./model_rnn/main.py --model_file 'rnn_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > rnn_train_rc_test
     # RNN trained on SCs
-time python main.py --model_file ‘rnn_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/‘ --testfname ‘test_rc.txt’ --test --words > rnn_train_sc_test
+python ./model_rnn/main.py --model_file 'rnn_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > rnn_train_sc_test
 
 
 # Push to GitHub
