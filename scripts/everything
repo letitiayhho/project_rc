@@ -24,13 +24,13 @@ python ./model_lstm/main.py --model_file ./model_lstm/lstm.pt --vocab_file ./dat
 
 # Train
     # LSTM on RCs
-python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model 'lstm_train_rc.pt' > lstm_train_rc # train on rc
+python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_rc.txt' --test --words --adapt --adapted_model 'lstm_train_rc.pt' > lstm_train_rc # train on rc
     # LSTM on SCs
-python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model 'lstm_train_sc.pt' > lstm_train_sc # train on sc
+python ./model_lstm/main.py --model_file './model_lstm/lstm.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_sc.txt' --test --words --adapt --adapted_model 'lstm_train_sc.pt' > lstm_train_sc # train on sc
     # RNN on RCs
-python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_rc.txt' --test --words --adapt --adapted_model 'rnn_train_rc.pt' > rnn_train_rc # train on rc
+python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_rc.txt' --test --words --adapt --adapted_model 'rnn_train_rc.pt' > rnn_train_rc # train on rc
     # RNN on SCs
-python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname ‘train_sc.txt' --test --words --adapt --adapted_model 'rnn_train_sc.pt' > rnn_train_sc # train on sc
+python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'train_sc.txt' --test --words --adapt --adapted_model 'rnn_train_sc.pt' > rnn_train_sc # train on sc
 
 
 # Test
