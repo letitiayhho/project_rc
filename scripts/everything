@@ -35,7 +35,7 @@ python ./model_rnn/main.py --model_file './model_rnn/rnn.pt' --vocab_file './dat
 
 # Test
     # LSTM trained on RCs
-python ./model_lstm/main.py --model_file 'lstm_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt'--test --words > lstm_train_rc_test
+python ./model_lstm/main.py --model_file 'lstm_train_rc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > lstm_train_rc_test
     # LSTM trained on SCs
 python ./model_lstm/main.py --model_file 'lstm_train_sc.pt' --vocab_file './data/wikitext-2/vocab.txt' --cuda --data_dir './data/test_rc/' --testfname 'test_rc.txt' --test --words > lstm_train_sc_test
     # RNN trained on RCs
